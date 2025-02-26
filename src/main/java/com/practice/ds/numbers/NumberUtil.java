@@ -45,4 +45,20 @@ public class NumberUtil {
         return fact;
     }
 
+
+
+//User function Template for Java
+
+
+
+        public static int digitsInFactorial(int N){
+            double res=0;
+            for(int i=1;i<=N;i++)
+            {
+                res=res+Math.log10(i);
+            }
+            return (int) Math.floor(res)+1;
+        }
+
+
 }

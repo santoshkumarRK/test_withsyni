@@ -65,4 +65,9 @@ public class NumberUtilTest {
     public void factorialTestWithZero(){
         Assert.assertEquals(1,NumberUtil.factorial(0));
     }
+
+    @Test
+    public void digitsInFactTestWithSingleDigit(){
+        Assert.assertEquals(3,NumberUtil.digitsInFactorial(5));
+    }
 }
